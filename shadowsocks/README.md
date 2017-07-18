@@ -21,12 +21,12 @@
 
 
 * <b>shadowsocks.tar.gz</b><br/>
-此文件为shadowsocks文件夹的打包，通过路由器访问 [https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/master/shadowsocks/shadowsocks.tar.gz](https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/master/shadowsocks/shadowsocks.tar.gz) 获取安装包更新。
+此文件为shadowsocks文件夹的打包，通过路由器访问 [https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz](https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz) 获取安装包更新。
 
 ## 如果你更新出现问题，请按照以下方式手动更新：
 <pre>
 cd /tmp
-wget --no-check-certificate --timeout=15 https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/master/shadowsocks/shadowsocks.tar.gz
+wget --no-check-certificate --timeout=15 https://raw.githubusercontent.com/Jason-Wang6312/koolshare.github.io/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz
 tar -zxvf /tmp/shadowsocks.tar.gz
 chmod +x /tmp/shadowsocks/install.sh
 sh /tmp/shadowsocks/install.sh
